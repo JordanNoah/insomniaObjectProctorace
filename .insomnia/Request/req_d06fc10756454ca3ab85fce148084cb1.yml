@@ -1,0 +1,46 @@
+_id: req_d06fc10756454ca3ab85fce148084cb1
+type: Request
+parentId: fld_6fc8708f88a2421d98ee67793379dd0e
+modified: 1696030489304
+created: 1696030303690
+url: "{{ _.base_url }}/"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"uuid": "5dc2c983-3932-5bc7-b246-dc5f088c212e",
+        "name": "FUNIBERA",
+        "fullname": "Fundación Universitaria Iberoamericana",
+        "abbreviation": "FBR",
+        "domain": "funiber.org",
+        "token": "87dce7128c39",
+        "website": "https://campus.funiber.org",
+        "rest_path": "/webservice/rest/server.php",
+        "modality": "virtual",
+        "translations": {
+          "en_US": "Iberoamerican University Foundation",
+          "pt_BR": "Fundação Universitária Iberoamericana",
+          "pt_PT": "Fundação Universitária Iberoamericana",
+          "fr_FR": "Fondation Universitaire Ibéro-américaine",
+          "it_IT": "Fondazione Universitaria Iberoamericana",
+          "zh_CN": "伊比利亚美洲大学基金会"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696025327240
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

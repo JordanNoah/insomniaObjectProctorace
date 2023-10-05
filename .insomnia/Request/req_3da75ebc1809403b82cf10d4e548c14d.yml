@@ -1,0 +1,34 @@
+_id: req_3da75ebc1809403b82cf10d4e548c14d
+type: Request
+parentId: fld_b9f497b80c634fa5af526218f8d6ce4a
+modified: 1696211196405
+created: 1696209438077
+url: "{{ _.base_url }}/users/save"
+name: save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":3,
+    	"username":"noah",
+    	"firstname":"jordan",
+    	"lastname":"ubilla",
+    	"institution":"fnbr"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696209438077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
