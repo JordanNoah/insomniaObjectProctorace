@@ -1,0 +1,85 @@
+_id: req_cb5e1562ae4944e0a34f08979645f426
+type: Request
+parentId: fld_b9f497b80c634fa5af526218f8d6ce4a
+modified: 1696524393054
+created: 1696520791087
+url: "{{ _.base_url }}/users/"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"institution": {
+    		"institution_abbreviation": "FBR",
+    		"modality": "VIRTUAL"
+    	},
+    	"fired_at": "2023-10-04T17:50:58.000Z",
+    	"uuid": "dde58e75 - 89 ab - 49 bd - b84d - 93e6 eebcc16e",
+    	"user": {
+    		"id": 3546,
+    		"auth": "manual",
+    		"confirmed": "1",
+    		"policyagreed": "0",
+    		"deleted": "0",
+    		"suspended": "0",
+    		"mnethostid": "1",
+    		"username": "noemie.erdman",
+    		"password": "$2y$10$7aYn\/jzbtirb.iglW0ROVOqJ9fpQjlkyQq0YJGdMgXnZ\/hLOKxqTC",
+    		"idnumber": "",
+    		"firstname": "Augustineaaaaa",
+    		"lastname": "Toy",
+    		"email": "Keira_Kilback67@gmail.com",
+    		"emailstop": "0",
+    		"phone1": "",
+    		"phone2": "",
+    		"institution": "",
+    		"department": "",
+    		"address": "",
+    		"city": "",
+    		"country": "",
+    		"lang": "en",
+    		"calendartype": "gregorian",
+    		"theme": "",
+    		"timezone": "99",
+    		"firstaccess": "0",
+    		"lastaccess": "0",
+    		"lastlogin": "0",
+    		"currentlogin": "0",
+    		"lastip": "",
+    		"secret": "",
+    		"picture": "0",
+    		"description": null,
+    		"descriptionformat": "1",
+    		"mailformat": "1",
+    		"maildigest": "0",
+    		"maildisplay": "2",
+    		"autosubscribe": "1",
+    		"trackforums": "0",
+    		"timecreated": "1696441858",
+    		"timemodified": "1696441858",
+    		"trustbitmask": "0",
+    		"imagealt": null,
+    		"lastnamephonetic": null,
+    		"firstnamephonetic": null,
+    		"middlename": null,
+    		"alternatename": null,
+    		"moodlenetprofile": null
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696520791087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
