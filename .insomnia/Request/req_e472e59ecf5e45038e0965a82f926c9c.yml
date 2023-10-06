@@ -1,9 +1,9 @@
 _id: req_e472e59ecf5e45038e0965a82f926c9c
 type: Request
 parentId: fld_6fc8708f88a2421d98ee67793379dd0e
-modified: 1695937335509
+modified: 1696626361070
 created: 1695688886393
-url: "{{ _.base_url }}/save"
+url: "{{ _.base_url }}/institutions/save"
 name: save
 description: ""
 method: POST

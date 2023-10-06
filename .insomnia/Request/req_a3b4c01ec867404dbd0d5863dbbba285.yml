@@ -1,0 +1,45 @@
+_id: req_a3b4c01ec867404dbd0d5863dbbba285
+type: Request
+parentId: fld_7c9a5921ac2a477abb045d9aacf71146
+modified: 1696626430606
+created: 1696608278884
+url: "{{ _.base_url }}/modules/save"
+name: save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"institution": {
+    		"institution_abbreviation": "FBR",
+    		"modality": "VIRTUAL"
+    	},
+    	"fired_at": "2023-10-06T19:37:13.000Z",
+    	"uuid": "ac865f58-8baf-4373-bd2b-d5ef6a6399bc",
+    	"courseId": "14",
+    	"module": {
+    		"id": "490",
+    		"courseId": "14",
+    		"name": "awwwwwwwwwwwwwaaaaaaaaaaas",
+    		"type": "assign",
+    		"url": "por hacer",
+    		"startDate": "1696568400",
+    		"endDate": "0"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696608278884
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

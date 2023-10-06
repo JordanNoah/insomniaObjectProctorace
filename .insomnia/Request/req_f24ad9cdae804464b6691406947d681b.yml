@@ -1,12 +1,12 @@
-_id: req_de9efc067d194475adfc85ffcb16aba3
+_id: req_f24ad9cdae804464b6691406947d681b
 type: Request
 parentId: fld_44db764710a0462d81e85cb3c94cfd04
-modified: 1696604881727
-created: 1696524534295
-url: "{{ _.base_url }}/courses/save"
-name: save
+modified: 1696604886014
+created: 1696602536094
+url: "{{ _.base_url }}/courses/"
+name: Update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
@@ -63,7 +63,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1696524534295
+metaSortKey: -1696602536094
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
