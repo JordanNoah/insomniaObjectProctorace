@@ -1,0 +1,77 @@
+_id: req_f10c02c5c53b478db30cc11f7e0befa0
+type: Request
+parentId: fld_a7073d5fe4e646e98114bf29e4213e0c
+modified: 1696895845592
+created: 1696894242539
+url: "{{ _.base_url }}/enrollments/"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"institution": {
+    		"institution_abbreviation": false,
+    		"modality": false
+    	},
+    	"fired_at": "2023-10-09T19:55:11.000Z",
+    	"uuid": "d7f28a09-8461-47e8-a3b4-46b9f495cdb1",
+    	"enrolment": {
+    		"id": "1",
+    		"status": "0",
+    		"enrolid": "1",
+    		"userid": "3",
+    		"timestart": "0",
+    		"timeend": "0",
+    		"modifierid": "2",
+    		"timecreated": "1694823215",
+    		"timemodified": "1694823215",
+    		"enrol": "manual",
+    		"courseid": "14",
+    		"sortorder": "0",
+    		"name": null,
+    		"enrolperiod": "0",
+    		"enrolstartdate": "0",
+    		"enrolenddate": "0",
+    		"expirynotify": "0",
+    		"expirythreshold": "86400",
+    		"notifyall": "0",
+    		"password": null,
+    		"cost": null,
+    		"currency": null,
+    		"roleid": "5",
+    		"customint1": null,
+    		"customint2": null,
+    		"customint3": null,
+    		"customint4": null,
+    		"customint5": null,
+    		"customint6": null,
+    		"customint7": null,
+    		"customint8": null,
+    		"customchar1": null,
+    		"customchar2": null,
+    		"customchar3": null,
+    		"customdec1": null,
+    		"customdec2": null,
+    		"customtext1": null,
+    		"customtext2": null,
+    		"customtext3": null,
+    		"customtext4": null
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696894242539
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

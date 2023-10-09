@@ -1,12 +1,12 @@
-_id: req_3da75ebc1809403b82cf10d4e548c14d
+_id: req_16a7cdb53c5c46a0bf47d6e555a11d16
 type: Request
-parentId: fld_b9f497b80c634fa5af526218f8d6ce4a
-modified: 1696891228751
-created: 1696209438077
-url: "{{ _.base_url }}/users/save"
-name: save
+parentId: fld_7c9a5921ac2a477abb045d9aacf71146
+modified: 1696880367837
+created: 1696871972827
+url: "{{ _.base_url }}/modules/"
+name: update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
@@ -18,12 +18,14 @@ body:
     	"fired_at": "2023-10-06T19:37:13.000Z",
     	"uuid": "ac865f58-8baf-4373-bd2b-d5ef6a6399bc",
     	"courseId": "14",
-    	"user": {
-    		"id":3,
-    		"username":"noah",
-    		"firstname":"jordan",
-    		"lastname":"ubilla",
-    		"institution":"fnbr"
+    	"module": {
+    		"id": "490",
+    		"courseId": "14",
+    		"name": "jordan",
+    		"type": "assign",
+    		"url": "por hacer",
+    		"startDate": "1696568400",
+    		"endDate": "0"
     	}
     }
 parameters: []
@@ -33,7 +35,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1696209438077
+metaSortKey: -1696870648855
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,23 @@
+_id: req_91b4066143fa421a88dabed89c09157c
+type: Request
+parentId: fld_7c9a5921ac2a477abb045d9aacf71146
+modified: 1696870532483
+created: 1696867906465
+url: "{{ _.base_url }}/modules/1"
+name: Get by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696626913034
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
