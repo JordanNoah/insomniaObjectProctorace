@@ -1,15 +1,39 @@
 _id: req_39915128c4544cf8add3c0b4a1399ca7
 type: Request
 parentId: fld_fa7635423057490cbabbee053020f0e7
-modified: 1696945329350
+modified: 1696968517724
 created: 1696944927648
-url: "{{ _.base_url }}/role/assigned"
+url: "{{ _.base_url }}/roles/assigned"
 name: Role assigned
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"institution": {
+    		"institution_abbreviation": "FBR",
+    		"modality": "VIRTUAL"
+    	},
+    	"fired_at": "2023-10-10T18:37:32.000Z",
+    	"uuid": "c3dab337-82b7-4706-8d87-6c32ac90663c",
+    	"role": {
+    		"id": "163",
+    		"roleid": "1",
+    		"contextid": "1",
+    		"userid": "3",
+    		"timemodified": "1696963052",
+    		"modifierid": "2",
+    		"component": "",
+    		"itemid": "0",
+    		"sortorder": "0",
+    		"courseid":"14"
+    	}
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
