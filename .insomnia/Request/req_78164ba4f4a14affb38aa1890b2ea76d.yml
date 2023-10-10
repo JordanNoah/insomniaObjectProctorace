@@ -1,0 +1,44 @@
+_id: req_78164ba4f4a14affb38aa1890b2ea76d
+type: Request
+parentId: fld_c6247342bc59496bb4b9b174685793d9
+modified: 1696954542914
+created: 1696946217171
+url: "{{ _.base_url }}/roles/save"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"institution": {
+    		"institution_abbreviation": "FBR",
+    		"modality": "VIRTUAL"
+    	},
+    	"fired_at": "2023-10-06T19:37:13.000Z",
+    	"uuid": "ac865f58-8baf-4373-bd2b-d5ef6a6399bc",
+    	"courseId": "14",
+    	"role": {
+    		"id": "1",
+    		"name": "",
+    		"shortname": "manager",
+    		"description": "",
+    		"sortorder": "1",
+    		"archetype": "manager"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696946339351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

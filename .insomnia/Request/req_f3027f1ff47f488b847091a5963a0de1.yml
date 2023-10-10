@@ -1,0 +1,44 @@
+_id: req_f3027f1ff47f488b847091a5963a0de1
+type: Request
+parentId: fld_c6247342bc59496bb4b9b174685793d9
+modified: 1696958443806
+created: 1696946283564
+url: "{{ _.base_url }}/roles/"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"institution": {
+    		"institution_abbreviation": "FBR",
+    		"modality": "VIRTUAL"
+    	},
+    	"fired_at": "2023-10-06T19:37:13.000Z",
+    	"uuid": "ac865f58-8baf-4373-bd2b-d5ef6a6399bc",
+    	"courseId": "14",
+    	"role": {
+    		"id": "1",
+    		"name": "",
+    		"shortname": "student",
+    		"description": "",
+    		"sortorder": "1",
+    		"archetype": "student"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696946339751
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

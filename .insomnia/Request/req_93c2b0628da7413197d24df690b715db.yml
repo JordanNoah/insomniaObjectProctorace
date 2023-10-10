@@ -1,9 +1,9 @@
-_id: req_6418cbb4c1d648d4bdd390edca5c9a89
+_id: req_93c2b0628da7413197d24df690b715db
 type: Request
-parentId: fld_6fc8708f88a2421d98ee67793379dd0e
-modified: 1696954862238
-created: 1695944779797
-url: "{{ _.base_url }}/institutions"
+parentId: fld_c6247342bc59496bb4b9b174685793d9
+modified: 1696956582468
+created: 1696946244659
+url: "{{ _.base_url }}/roles/"
 name: Get all
 description: ""
 method: GET
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695940867658.5
+metaSortKey: -1696946339451
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
